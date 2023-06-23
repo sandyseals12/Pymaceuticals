@@ -1,0 +1,25 @@
+README
+This project focuses on analyzing and visualizing mouse data in the field of pharmaceutical research. The dataset includes information about various drug regimens, tumor volume measurements, and other parameters. The goal is to gain insights into the effectiveness of different treatments and identify potential outliers.
+
+The project involves the following steps:
+
+Data Cleaning:
+
+The mouse metadata and study results data are read from CSV files and merged into a single DataFrame.
+Duplicate data is identified and removed based on Mouse ID and Timepoint.
+The cleaned DataFrame is created, containing unique data for each mouse.
+Summary Statistics:
+
+Summary statistics are calculated, including mean, median, variance, standard deviation, and standard error of the tumor volume for each drug regimen.
+The statistics are presented in a summary DataFrame.
+Data Visualization:
+
+Bar plots are generated to show the number of data points for each drug regimen using both Pandas and pyplot.
+Pie charts are created to visualize the distribution of female versus male mice using both Pandas and pyplot.
+A box plot is generated to display the distribution of tumor volume for each treatment group.
+Final Tumor Volume Analysis:
+
+The final tumor volume is determined for each mouse across four specific treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin.
+The quartiles, interquartile range (IQR), and potential outliers are calculated for each treatment regimen.
+A box plot is generated to visualize the distribution of the tumor volume for each treatment group.
+This project demonstrates skills in data cleaning, summary statistics calculation, data visualization, and outlier detection. It provides valuable insights into the effectiveness of different drug regimens in reducing tumor volume in mice, aiding in the analysis and interpretation of experimental results.
